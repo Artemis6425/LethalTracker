@@ -12,6 +12,10 @@ While the spreadsheets that exist are pretty nice and do give a bit more detail,
 - Ability to estimate future quotas
 - ...and more!
 
+## Download 
+
+[**Download the latest release**](https://github.com/Artemis6425/LethalTracker/releases/latest)
+
 ## How to Use
 
 Once you open `LethalTracker.exe`, you'll be greeted by the credits screen. Click the `Credits` button at the top to close it and get to the main menu of it.
@@ -19,10 +23,7 @@ If you plan to go for high score runs, make sure "HIGH SCORE RUN" is selected on
 
 If you plan on going for specific quota runs, make sure "QUOTA # RUN" is selected, and fill out the box with the goal quota. By default, this sets itself to 10. From there, you will have a few extra stats on the right side, but otherwise usage is the same! Please note that if you do skip any days, put "0" in those days so the program can continue doing math correctly for you.
 
-## Getting the files
 
-1. [Download the latest release](https://github.com/Artemis6425/LethalTracker/releases/latest)
-1. Extract `LethalTracker.zip`, and open the `LethalTracker.exe`
 
 ## Known issues
 
