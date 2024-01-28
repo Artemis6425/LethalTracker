@@ -1,6 +1,6 @@
 import math
-from PyQt5 import QtWidgets, QtCore, QtGui
-from PyQt5.QtWidgets import QDialog, QApplication, QMainWindow, QLabel, QVBoxLayout, QWidget, QLineEdit
+from PyQt5 import QtWidgets, QtGui
+from PyQt5.QtWidgets import QApplication, QMainWindow, QLineEdit
 from PyQt5.uic import loadUi
 from PyQt5.QtGui import QFontDatabase, QIntValidator
 import sys
@@ -8,18 +8,13 @@ import os
 
 resource_path = getattr(sys, '_MEIPASS', os.path.abspath(os.path.dirname(__file__)))
 
-if getattr(sys, 'frozen', False):
-    RELATIVE_PATH = os.path.dirname(sys.executable)
-else:
-    RELATIVE_PATH = os.path.dirname(__file__)
-
 class Window(QMainWindow):
     def __init__(self):
         super().__init__()
 
         QFontDatabase.addApplicationFont(os.path.join(resource_path, '3270-Regular.otf'))
         loadUi(os.path.join(resource_path, 'MainWindow.ui'), self)
-        
+
         for child_widget in self.findChildren(QtWidgets.QWidget):
             if isinstance(child_widget, QtWidgets.QLineEdit):
                 child_widget.setValidator(QIntValidator())
@@ -152,7 +147,6 @@ class Window(QMainWindow):
         if d3 != '':
             d3 = int(d3)
         totalScrap[value] = [d1, d2, d3]
-        #print(totalScrap)
         self.currentShip()
 
     def newQuota(self, value):
