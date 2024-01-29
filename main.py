@@ -37,9 +37,12 @@ class Window(QMainWindow):
             if temp5:
                 temp5.editingFinished.connect(lambda temp=i-1: self.totalScrapSold(temp))
 
+        self.ResetWindow.hide()
+        self.ResetCancel.clicked.connect(self.resetCancel)
+        self.ResetConfirmation.clicked.connect(self.resetAll)
         self.pageUp.clicked.connect(self.pageUpFunction)
         self.pageDown.clicked.connect(self.pageDownFunction)
-        self.resetButton.clicked.connect(self.resetAll)
+        self.resetButton.clicked.connect(self.resetWindowFunct)
         self.GoalValue.editingFinished.connect(self.updateStats)
         self.QuotaHighRadio.clicked.connect(self.highRadio)
         self.QuotaNumRadio.clicked.connect(self.numRadio)
@@ -48,6 +51,12 @@ class Window(QMainWindow):
         self.CalculatorShip.editingFinished.connect(self.overtimeCalculator)
         self.CalculatorDesired.editingFinished.connect(self.overtimeCalculator)
         self.CalculatorBuy.editingFinished.connect(self.overtimeCalculator)
+
+    def resetWindowFunct(self):
+        self.ResetWindow.show()
+
+    def resetCancel(self):
+        self.ResetWindow.hide()
 
     def overtimeCalculator(self):
         if self.CalculatorDesired.text() == "":
@@ -134,6 +143,7 @@ class Window(QMainWindow):
             getattr(self, f"q{i+1}sold").setText('')
             i=i+1
         self.last2Stats()
+        self.ResetWindow.hide()
 
     def totalScrapValue(self, value):
         global currShip
@@ -246,7 +256,7 @@ allQuotas = [130,'','','','','','','','','','','','','','','','','','','','','',
 averageQuota = [130,236.25,361.25,517.5,717.5,973.75,1298.75,1705,2205,2811.25,3536.25,4392.5,5392.5,6548.75,7873.75,9380,11080,12986.25,15111.25,17467.5,20067.5,22923.75]
 
 app=QApplication(sys.argv)
-app.setApplicationName("LethalTracker v1.0")
+app.setApplicationName("LethalTracker v1.1")
 app.setWindowIcon(QtGui.QIcon(QtGui.QPixmap(os.path.join(resource_path, 'icon.ico'))))
 mainwindow=Window()
 widget=QtWidgets.QStackedWidget()
