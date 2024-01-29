@@ -7,7 +7,7 @@ This is also my first time making a full program like this! Let me know if you l
 
 3270font (aka the Lethal Company font) was created by [Ricardo Bánffy](https://github.com/rbanffy) and others, please read `Font License.txt` and view the fonts [github page](https://github.com/rbanffy/3270font/tree/main)!
 
-https://i.imgur.com/l4pmPTK.png
+![screenshot of LethalTracker](https://i.imgur.com/l4pmPTK.png)
 
 ## Features
 
