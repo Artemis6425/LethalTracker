@@ -1,12 +1,64 @@
 import math
 from PyQt5 import QtWidgets, QtGui
-from PyQt5.QtWidgets import QApplication, QMainWindow, QLineEdit
+from PyQt5.QtWidgets import QApplication, QMainWindow, QLineEdit, QColorDialog
 from PyQt5.uic import loadUi
 from PyQt5.QtGui import QFontDatabase, QIntValidator
 import sys
 import os
 
 resource_path = getattr(sys, '_MEIPASS', os.path.abspath(os.path.dirname(__file__)))
+
+class SecondWindow(QMainWindow):
+    def __init__(self, parent=None):
+        super(SecondWindow, self).__init__(parent)
+        
+        self.setFixedHeight(320)
+        self.setFixedWidth(650)
+
+        loadUi(os.path.join(resource_path, 'Popout.ui'), self)
+        self.setWindowTitle("LethalTracker OBS")
+        self.FontButton.clicked.connect(self.fontColor)
+        self.BackgroundButton.clicked.connect(self.backColor)
+        parent.stat1.textChanged.connect(lambda: self.changeStat(self.stat2, parent.stat1))
+        parent.stat2.textChanged.connect(lambda: self.changeStat(self.stat3, parent.stat2))
+        parent.stat3.textChanged.connect(lambda: self.changeStat(self.stat4, parent.stat3))
+        parent.stat4.textChanged.connect(self.changeStat2)
+        parent.stat4.textChanged.connect(lambda: self.changeStat(self.stat5, parent.stat4))
+        parent.stat5.textChanged.connect(lambda: self.changeStat(self.stat6, parent.stat5))
+        parent.stat6.textChanged.connect(lambda: self.changeStat(self.stat7, parent.stat6))
+
+    def changeStat2(self):
+        temp1 = remove_items(allQuotas,'')
+        temp2 = len(temp1)
+        self.stat1.setText(f"Quota {temp2}: {temp1[-1]}")
+
+    def changeStat(self, item, parentt):
+        item.setText(parentt.text())
+        
+
+    def backColor(self):
+        color = QColorDialog.getColor()
+        if color.isValid():
+            self.widget.setStyleSheet(f"background-color: {color.name()};")
+
+    def fontColor(self):
+        color = QColorDialog.getColor()
+        if color.isValid():
+            self.stat1.setStyleSheet(f"color: {color.name()}; border: none;")
+            self.stat2.setStyleSheet(f"color: {color.name()}; border: none;")
+            self.stat3.setStyleSheet(f"color: {color.name()}; border: none;")
+            self.stat4.setStyleSheet(f"color: {color.name()}; border: none;")
+            self.stat5.setStyleSheet(f"color: {color.name()}; border: none;")
+            self.stat6.setStyleSheet(f"color: {color.name()}; border: none;")
+            self.stat7.setStyleSheet(f"color: {color.name()}; border: none;")
+            self.label_2.setStyleSheet(f"color: {color.name()}; border: none;")
+            self.label_3.setStyleSheet(f"color: {color.name()}; border: none;")
+            self.label_4.setStyleSheet(f"color: {color.name()}; border: none;")
+            self.label_5.setStyleSheet(f"color: {color.name()}; border: none;")
+            self.label_6.setStyleSheet(f"color: {color.name()}; border: none;")
+            self.label_7.setStyleSheet(f"color: {color.name()}; border: none;")
+            self.BackgroundButton.setStyleSheet(f"color: {color.name()}; border: 1px solid red; border-color: {color.name()};")
+            self.FontButton.setStyleSheet(f"color: {color.name()}; border: 1px solid red; border-color: {color.name()};")
 
 class Window(QMainWindow):
     def __init__(self):
@@ -36,7 +88,8 @@ class Window(QMainWindow):
             temp5 = self.findChild(QLineEdit, f"q{i}sold")
             if temp5:
                 temp5.editingFinished.connect(lambda temp=i-1: self.totalScrapSold(temp))
-
+        self.OBSButton.setIcon(QtGui.QIcon(os.path.join(resource_path, 'obs.png')))
+        self.OBSButton.clicked.connect(self.openOBSWindow)
         self.ResetWindow.hide()
         self.ResetCancel.clicked.connect(self.resetCancel)
         self.ResetConfirmation.clicked.connect(self.resetAll)
@@ -51,6 +104,19 @@ class Window(QMainWindow):
         self.CalculatorShip.editingFinished.connect(self.overtimeCalculator)
         self.CalculatorDesired.editingFinished.connect(self.overtimeCalculator)
         self.CalculatorBuy.editingFinished.connect(self.overtimeCalculator)
+
+    def openOBSWindow(self):
+        try:
+            self.second_window
+        except AttributeError:
+            self.second_window = None
+
+        if self.second_window is None:
+            self.second_window = SecondWindow(self)
+            self.second_window.show()
+        else:
+            if self.second_window.isHidden():
+                self.second_window.show()
 
     def resetWindowFunct(self):
         self.ResetWindow.show()
@@ -256,7 +322,7 @@ allQuotas = [130,'','','','','','','','','','','','','','','','','','','','','',
 averageQuota = [130,236.25,361.25,517.5,717.5,973.75,1298.75,1705,2205,2811.25,3536.25,4392.5,5392.5,6548.75,7873.75,9380,11080,12986.25,15111.25,17467.5,20067.5,22923.75]
 
 app=QApplication(sys.argv)
-app.setApplicationName("LethalTracker v1.1")
+app.setApplicationName("LethalTracker v1.2")
 app.setWindowIcon(QtGui.QIcon(QtGui.QPixmap(os.path.join(resource_path, 'icon.ico'))))
 mainwindow=Window()
 widget=QtWidgets.QStackedWidget()

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1059</width>
-    <height>516</height>
+    <width>702</width>
+    <height>305</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -282,6 +282,9 @@ border: none;</string>
        </property>
       </widget>
       <widget class="QLineEdit" name="q1">
+       <property name="enabled">
+        <bool>false</bool>
+       </property>
        <property name="geometry">
         <rect>
          <x>110</x>
@@ -7824,6 +7827,9 @@ border: none;</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="stat1">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
      <property name="geometry">
       <rect>
        <x>690</x>
@@ -7856,6 +7862,9 @@ border: none;</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="stat2">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
      <property name="geometry">
       <rect>
        <x>690</x>
@@ -7888,6 +7897,9 @@ border: none;</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="stat3">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
      <property name="geometry">
       <rect>
        <x>690</x>
@@ -7920,6 +7932,9 @@ border: none;</string>
      </property>
     </widget>
     <widget class="QLineEdit" name="stat4">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
      <property name="geometry">
       <rect>
        <x>690</x>
@@ -7953,7 +7968,7 @@ border: none;</string>
     </widget>
     <widget class="QLineEdit" name="stat5">
      <property name="enabled">
-      <bool>true</bool>
+      <bool>false</bool>
      </property>
      <property name="geometry">
       <rect>
@@ -7988,7 +8003,7 @@ border: none;</string>
     </widget>
     <widget class="QLineEdit" name="stat6">
      <property name="enabled">
-      <bool>true</bool>
+      <bool>false</bool>
      </property>
      <property name="geometry">
       <rect>
@@ -8582,6 +8597,37 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="textInteractionFlags">
          <set>Qt::NoTextInteraction</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="OBSButton">
+        <property name="geometry">
+         <rect>
+          <x>400</x>
+          <y>10</y>
+          <width>41</width>
+          <height>41</height>
+         </rect>
+        </property>
+        <property name="cursor">
+         <cursorShape>PointingHandCursor</cursorShape>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(253, 85, 0);
+border: 1px solid red;
+border-color:hex(#fd5500);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>obs.png</normaloff>obs.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>32</width>
+          <height>32</height>
+         </size>
         </property>
        </widget>
       </widget>
