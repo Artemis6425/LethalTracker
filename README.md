@@ -1,4 +1,4 @@
-# LethalTracker v1.0 by Artemis64
+# LethalTracker v1.2 by Artemis64
 
 This program is meant to be an all-in-one scrap tracker for Lethal Company!
 While the spreadsheets that exist are pretty nice and do give a bit more detail, i think they are generally rough on the eyes and don't have a great way to be displayed on stream. I figured making this would both simplify usage and also be easy to capture in OBS. (Improved in 1.2!)

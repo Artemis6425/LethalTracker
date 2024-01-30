@@ -34,7 +34,6 @@ class SecondWindow(QMainWindow):
 
     def changeStat(self, item, parentt):
         item.setText(parentt.text())
-        
 
     def backColor(self):
         color = QColorDialog.getColor()
