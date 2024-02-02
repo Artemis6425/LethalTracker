@@ -280,6 +280,16 @@ class Window(QMainWindow):
                 estimatedNeeded[2] = estimatedNeeded[1] / days
                 self.stat6.setText(str(estimatedNeeded[0]))
             self.stat5.setText(str(estimatedNeeded[2]))
+        if self.QuotaHighRadio.isChecked():
+            i=len(remove_items(allQuotas, ''))
+            lastQuota = remove_items(allQuotas, '')[-1] # last quota
+            days = 3* i - len(remove_items(flatten_comprehension(totalScrap), '')) # days left
+            if days != 0:
+                j = (lastQuota - currShip) / days
+            else:
+                j = lastQuota - currShip
+            self.stat5.setText(str(max(0, j)))
+            
 
 def nextQuotaCalc():
     global nextQuota, currQuota
