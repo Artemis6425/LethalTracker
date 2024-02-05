@@ -1,4 +1,4 @@
-# LethalTracker v1.2 by Artemis64
+# LethalTracker v1.3 by Artemis64
 
 This program is meant to be an all-in-one scrap tracker for Lethal Company!
 While the spreadsheets that exist are pretty nice and do give a bit more detail, i think they are generally rough on the eyes and don't have a great way to be displayed on stream. I figured making this would both simplify usage and also be easy to capture in OBS. (Improved in 1.2!)
@@ -57,5 +57,5 @@ If you want to show the stats in OBS as well, click the OBS button on the credit
 ### v1.3 "Updated Calculator"
 
 - Fixed bug where the `LethalTracker OBS` window wasn't updating the top line when resetting. Thank you for letting me know!
-- Merged TomatoBird8's branch, which formats the text in the `LethalTracker OBS` window to allow for bigger numbers. Thank you for the contribution!
+- Merged Tomatobird8's branch, which formats the text in the `LethalTracker OBS` window to allow for bigger numbers. Thank you for the contribution!
 - Added the ability to change calculator into "Overtime" and "No OT" modes. Makes it possible to calculate how much you need to sell to hit quota, ignoring overtime. Thank you for the feedback!
