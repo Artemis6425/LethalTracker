@@ -138,7 +138,7 @@ border: none;</string>
 border: none;</string>
      </property>
      <property name="text">
-      <string>Estimated Next Quota:</string>
+      <string>Est. Next Quota:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_6">
@@ -161,7 +161,7 @@ border: none;</string>
 border: none;</string>
      </property>
      <property name="text">
-      <string>Estimated Scrap/Day Needed:</string>
+      <string>Est. Scrap/Day Needed:</string>
      </property>
     </widget>
     <widget class="QLabel" name="label_7">
@@ -184,7 +184,7 @@ border: none;</string>
 border: none;</string>
      </property>
      <property name="text">
-      <string>Estimated Final Quota:</string>
+      <string>Est. Final Quota:</string>
      </property>
     </widget>
     <widget class="QPushButton" name="FontButton">
@@ -352,9 +352,9 @@ border: none;</string>
      </property>
      <property name="geometry">
       <rect>
-       <x>460</x>
+       <x>374</x>
        <y>230</y>
-       <width>231</width>
+       <width>331</width>
        <height>41</height>
       </rect>
      </property>
@@ -381,9 +381,9 @@ border: none;</string>
      </property>
      <property name="geometry">
       <rect>
-       <x>580</x>
+       <x>494</x>
        <y>270</y>
-       <width>113</width>
+       <width>223</width>
        <height>41</height>
       </rect>
      </property>
@@ -410,9 +410,9 @@ border: none;</string>
      </property>
      <property name="geometry">
       <rect>
-       <x>480</x>
+       <x>394</x>
        <y>310</y>
-       <width>211</width>
+       <width>321</width>
        <height>41</height>
       </rect>
      </property>
