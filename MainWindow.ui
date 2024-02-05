@@ -8498,6 +8498,53 @@ border: none;</string>
          <bool>true</bool>
         </property>
        </widget>
+       <widget class="QRadioButton" name="OT">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>121</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>IBM 3270</family>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(253, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>Overtime</string>
+        </property>
+        <property name="checked">
+         <bool>true</bool>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="NO_OT">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>20</y>
+          <width>77</width>
+          <height>18</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>IBM 3270</family>
+          <pointsize>16</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(253, 85, 0);</string>
+        </property>
+        <property name="text">
+         <string>No OT</string>
+        </property>
+       </widget>
        <zorder>label_171</zorder>
        <zorder>CalculatorBuy</zorder>
        <zorder>label_175</zorder>
@@ -8509,6 +8556,8 @@ border: none;</string>
        <zorder>label_173</zorder>
        <zorder>CalculatorQuota</zorder>
        <zorder>CalculatorSell</zorder>
+       <zorder>OT</zorder>
+       <zorder>NO_OT</zorder>
       </widget>
      </widget>
      <widget class="QWidget" name="ButtonPage2">

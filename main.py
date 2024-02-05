@@ -22,12 +22,15 @@ class SecondWindow(QMainWindow):
         parent.stat1.textChanged.connect(lambda: self.changeStat(self.stat2, parent.stat1))
         parent.stat2.textChanged.connect(lambda: self.changeStat(self.stat3, parent.stat2))
         parent.stat3.textChanged.connect(lambda: self.changeStat(self.stat4, parent.stat3))
-        parent.stat4.textChanged.connect(self.changeStat2)
+        parent.stat4.textChanged.connect(lambda: self.changeStat2(parent.stat4))
         parent.stat4.textChanged.connect(lambda: self.changeStat(self.stat5, parent.stat4))
         parent.stat5.textChanged.connect(lambda: self.changeStat(self.stat6, parent.stat5))
         parent.stat6.textChanged.connect(lambda: self.changeStat(self.stat7, parent.stat6))
 
-    def changeStat2(self):
+    def changeStat2(self, stat4):
+        if stat4.text() == "236.25": # effectively part of the Reset function
+            self.stat1.setText("Quota 1: 130")
+            return
         temp1 = remove_items(allQuotas,'')
         temp2 = len(temp1)
         self.stat1.setText(f"Quota {temp2}: {temp1[-1]}")
@@ -103,6 +106,30 @@ class Window(QMainWindow):
         self.CalculatorShip.editingFinished.connect(self.overtimeCalculator)
         self.CalculatorDesired.editingFinished.connect(self.overtimeCalculator)
         self.CalculatorBuy.editingFinished.connect(self.overtimeCalculator)
+        self.NO_OT.clicked.connect(self.notOvertime)
+        self.OT.clicked.connect(self.Overtime)
+
+    def Overtime(self):
+        self.CalculatorShip.setStyleSheet("color: rgb(253, 85, 0); border: none;")
+        self.label_171.setStyleSheet("color: rgb(253, 85, 0); border: none;")
+        self.label_173.setStyleSheet("color: rgb(253, 85, 0); border: none;")
+        self.CalculatorDesired.setStyleSheet("color: rgb(253, 85, 0); border: none;")
+        self.CalculatorShip.setEnabled(True)
+        self.CalculatorDesired.setEnabled(True)
+        self.CalculatorShip.setText("")
+        self.CalculatorDesired.setText("")
+        self.CalculatorSell.setText("0")
+
+    def notOvertime(self):
+        self.CalculatorShip.setStyleSheet("color: rgb(100, 32, 0); border: none;")
+        self.label_171.setStyleSheet("color: rgb(100, 32, 0); border: none;")
+        self.label_173.setStyleSheet("color: rgb(100, 32, 0); border: none;")
+        self.CalculatorDesired.setStyleSheet("color: rgb(100, 32, 0); border: none;")
+        self.CalculatorShip.setEnabled(False)
+        self.CalculatorDesired.setEnabled(False)
+        self.CalculatorShip.setText("n/a")
+        self.CalculatorDesired.setText("n/a")
+        self.overtimeCalculator()
 
     def openOBSWindow(self):
         try:
@@ -124,19 +151,23 @@ class Window(QMainWindow):
         self.ResetWindow.hide()
 
     def overtimeCalculator(self):
-        if self.CalculatorDesired.text() == "":
-            tempDesired = 0
-        else:
-            tempDesired = int(self.CalculatorDesired.text())
-        if self.CalculatorShip.text() == "":
-            tempShip = 0
-        else:
-            tempShip = int(self.CalculatorShip.text())
-        needed = math.ceil((int(self.CalculatorQuota.text())+5 * ((tempDesired-tempShip)+15))/6)
-        temp = float((int(self.CalculatorBuy.text()))/100)
-        temp = 2 - temp
-        needed = math.ceil(needed * temp)
-        self.CalculatorSell.setText(str(needed))
+        if self.OT.isChecked():
+            if self.CalculatorDesired.text() == "":
+                tempDesired = 0
+            else:
+                tempDesired = int(self.CalculatorDesired.text())
+            if self.CalculatorShip.text() == "":
+                tempShip = 0
+            else:
+                tempShip = int(self.CalculatorShip.text())
+            needed = math.ceil((int(self.CalculatorQuota.text())+5 * ((tempDesired-tempShip)+15))/6)
+            temp = float((int(self.CalculatorBuy.text()))/100)
+            temp = 2 - temp
+            needed = math.ceil(needed * temp)
+            self.CalculatorSell.setText(str(needed))
+        if self.NO_OT.isChecked():
+            needed = math.ceil(int(self.CalculatorQuota.text()) / (int(self.CalculatorBuy.text())/100))
+            self.CalculatorSell.setText(str(needed))
 
     def calculatorFunction(self):
         was = self.ButtonStackWidget.currentIndex()
@@ -188,10 +219,13 @@ class Window(QMainWindow):
         self.stat3.setText(str(0))
         self.stat4.setText(str(236.25))
         self.CalculatorQuota.setText("130")
-        self.CalculatorDesired.setText("")
-        self.CalculatorShip.setText("")
-        self.CalculatorBuy.setText("100")
-        self.CalculatorSell.setText("0")
+        if self.OT.isChecked():
+            self.CalculatorDesired.setText("")
+            self.CalculatorShip.setText("")
+            self.CalculatorBuy.setText("100")
+            self.CalculatorSell.setText("0")
+        if self.NO_OT.isChecked():
+            self.overtimeCalculator()
         totalScrap = ['','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','']
         totalSold = [0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0]
         currShip = 0
@@ -331,7 +365,7 @@ allQuotas = [130,'','','','','','','','','','','','','','','','','','','','','',
 averageQuota = [130,236.25,361.25,517.5,717.5,973.75,1298.75,1705,2205,2811.25,3536.25,4392.5,5392.5,6548.75,7873.75,9380,11080,12986.25,15111.25,17467.5,20067.5,22923.75]
 
 app=QApplication(sys.argv)
-app.setApplicationName("LethalTracker v1.2")
+app.setApplicationName("LethalTracker v1.3")
 app.setWindowIcon(QtGui.QIcon(QtGui.QPixmap(os.path.join(resource_path, 'icon.ico'))))
 mainwindow=Window()
 widget=QtWidgets.QStackedWidget()

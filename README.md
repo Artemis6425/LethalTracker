@@ -12,8 +12,9 @@ This is also my first time making a full program like this! Let me know if you l
 ## Features
 
 - All-inclusive LethalTracker.exe file so you don't have to deal with my messy code!
-- Built-in overtime calculator
+- Built-in overtime calculator (with possibility to calculate how much you need to sell to hit quota!)
 - Ability to estimate future quotas
+- Option to open a window specifically designed to be captured by OBS **added in v1.2!**
 - ...and more!
 
 ## Download 
@@ -36,7 +37,7 @@ If you want to show the stats in OBS as well, click the OBS button on the credit
 
 ## Future ideas
 
-- Pull the data straight from the LethalCompany.exe itself during the game, removing the need to type this in. (Would be banned from the Lethal Company speedrun.com board if I were to do this. Considering alternatives)
+- Pull the data straight from the LethalCompany.exe itself during the game, removing the need to type this in. (Would be banned from the Lethal Company speedrun.com board if I were to do this. Considering alternatives, such as taking screenshots automatically)
 
 ## Changelog
 
@@ -52,3 +53,9 @@ If you want to show the stats in OBS as well, click the OBS button on the credit
 ### v1.2 "Better for OBS"
 
 - Added a button on the Credits screen that opens a `LethalTracker OBS` window. This shows the stats that the main window would, but in a bigger font size, and with the ability to change the text and background color. Thank you for the feedback!
+
+### v1.3 "Updated Calculator"
+
+- Fixed bug where the `LethalTracker OBS` window wasn't updating the top line when resetting. Thank you for letting me know!
+- Merged TomatoBird8's branch, which formats the text in the `LethalTracker OBS` window to allow for bigger numbers. Thank you for the contribution!
+- Added the ability to change calculator into "Overtime" and "No OT" modes. Makes it possible to calculate how much you need to sell to hit quota, ignoring overtime. Thank you for the feedback!
