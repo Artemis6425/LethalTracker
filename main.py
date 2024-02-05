@@ -160,13 +160,13 @@ class Window(QMainWindow):
                 tempShip = 0
             else:
                 tempShip = int(self.CalculatorShip.text())
-            needed = math.ceil((int(self.CalculatorQuota.text())+5 * ((tempDesired-tempShip)+15))/6)
+            needed = math.floor((int(self.CalculatorQuota.text())+5 * ((tempDesired-tempShip)+15))/6)
             temp = float((int(self.CalculatorBuy.text()))/100)
             temp = 2 - temp
-            needed = math.ceil(needed * temp)
+            needed = math.floor(needed * temp)
             self.CalculatorSell.setText(str(needed))
         if self.NO_OT.isChecked():
-            needed = math.ceil(int(self.CalculatorQuota.text()) / (int(self.CalculatorBuy.text())/100))
+            needed = math.floor(int(self.CalculatorQuota.text()) / (int(self.CalculatorBuy.text())/100))
             self.CalculatorSell.setText(str(needed))
 
     def calculatorFunction(self):
