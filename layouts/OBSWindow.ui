@@ -26,7 +26,7 @@
     <property name="styleSheet">
      <string notr="true">background-color: rgb(0, 0, 0);</string>
     </property>
-    <widget class="QLabel" name="stat1">
+    <widget class="QLabel" name="CurrentQuota">
      <property name="geometry">
       <rect>
        <x>60</x>
@@ -43,7 +43,7 @@
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>Quota 1: 130</string>
@@ -66,7 +66,7 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>Scrap on Ship: </string>
@@ -89,7 +89,7 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>Average per day:</string>
@@ -112,7 +112,7 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>+/- to Average Quota:</string>
@@ -135,7 +135,7 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>Est. Next Quota:</string>
@@ -158,7 +158,7 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>Est. Scrap/Day Needed:</string>
@@ -181,7 +181,7 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>Est. Final Quota:</string>
@@ -207,8 +207,8 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: 1px solid red;
-border-color:hex(#fd5500);</string>
+                            border: 1px solid red;
+                            border-color:hex(#fd5500);</string>
      </property>
      <property name="text">
       <string>Change Font Color</string>
@@ -243,8 +243,8 @@ border-color:hex(#fd5500);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: 1px solid red;
-border-color:hex(#fd5500);</string>
+                            border: 1px solid red;
+                            border-color:hex(#fd5500);</string>
      </property>
      <property name="text">
       <string>Change Background Color</string>
@@ -259,7 +259,7 @@ border-color:hex(#fd5500);</string>
       <bool>false</bool>
      </property>
     </widget>
-    <widget class="QLineEdit" name="stat2">
+    <widget class="QLineEdit" name="ShipScrap">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -282,13 +282,13 @@ border-color:hex(#fd5500);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>0</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="stat3">
+    <widget class="QLineEdit" name="AverageScrapPerDay">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -311,13 +311,13 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>0</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="stat4">
+    <widget class="QLineEdit" name="QuotaDeviationAverage">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -340,13 +340,13 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>0</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="stat5">
+    <widget class="QLineEdit" name="EstimatedNextQuota">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -369,13 +369,13 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>0</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="stat6">
+    <widget class="QLineEdit" name="EstimatedScrapPerDayNeeded">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -398,13 +398,13 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>0</string>
      </property>
     </widget>
-    <widget class="QLineEdit" name="stat7">
+    <widget class="QLineEdit" name="EstimatedFinalQuota">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -427,7 +427,7 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>0</string>

@@ -56,7 +56,7 @@
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -84,7 +84,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhNone</set>
@@ -144,7 +144,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>5</number>
@@ -170,7 +170,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Sold Scrap</string>
@@ -193,7 +193,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 1</string>
@@ -226,10 +226,12 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 24pt &quot;IBM 3270&quot;;
-color: rgb(253, 85, 0);</string>
+                                    color: rgb(253, 85, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Quota 1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span
+                                    style=&quot; font-size:28pt;&quot;&gt;Quota
+                                    1&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_8">
@@ -249,7 +251,7 @@ color: rgb(253, 85, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 3</string>
@@ -272,7 +274,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -304,7 +306,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>130</string>
@@ -333,7 +335,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 2</string>
@@ -358,7 +360,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string/>
@@ -390,7 +392,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -426,10 +428,12 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 24pt &quot;IBM 3270&quot;;
-color: rgb(253, 85, 0);</string>
+                                    color: rgb(253, 85, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Quota 2&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span
+                                    style=&quot; font-size:28pt;&quot;&gt;Quota
+                                    2&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QLineEdit" name="q2d3">
@@ -449,7 +453,7 @@ color: rgb(253, 85, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -477,7 +481,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhNone</set>
@@ -534,7 +538,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 2</string>
@@ -557,7 +561,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 1</string>
@@ -580,7 +584,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 3</string>
@@ -603,7 +607,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Sold Scrap</string>
@@ -626,7 +630,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>5</number>
@@ -654,7 +658,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -680,7 +684,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 1</string>
@@ -703,7 +707,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 2</string>
@@ -726,7 +730,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 3</string>
@@ -749,7 +753,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -777,7 +781,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhNone</set>
@@ -844,10 +848,12 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 24pt &quot;IBM 3270&quot;;
-color: rgb(253, 85, 0);</string>
+                                    color: rgb(253, 85, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Quota 3&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span
+                                    style=&quot; font-size:28pt;&quot;&gt;Quota
+                                    3&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QLineEdit" name="q3">
@@ -867,7 +873,7 @@ color: rgb(253, 85, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string/>
@@ -899,7 +905,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Sold Scrap</string>
@@ -922,7 +928,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>5</number>
@@ -950,7 +956,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Sold Scrap</string>
@@ -995,7 +1001,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -1021,7 +1027,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -1049,7 +1055,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhNone</set>
@@ -1084,7 +1090,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string/>
@@ -1116,7 +1122,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 2</string>
@@ -1139,7 +1145,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>5</number>
@@ -1165,7 +1171,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 3</string>
@@ -1188,7 +1194,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 1</string>
@@ -1221,10 +1227,12 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 24pt &quot;IBM 3270&quot;;
-color: rgb(253, 85, 0);</string>
+                                    color: rgb(253, 85, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Quota 4&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span
+                                    style=&quot; font-size:28pt;&quot;&gt;Quota
+                                    4&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
      </widget>
@@ -1246,7 +1254,7 @@ color: rgb(253, 85, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 1</string>
@@ -1269,7 +1277,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 2</string>
@@ -1292,7 +1300,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 3</string>
@@ -1315,7 +1323,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -1341,7 +1349,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -1369,7 +1377,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhNone</set>
@@ -1436,10 +1444,12 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 24pt &quot;IBM 3270&quot;;
-color: rgb(253, 85, 0);</string>
+                                    color: rgb(253, 85, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Quota 5&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span
+                                    style=&quot; font-size:28pt;&quot;&gt;Quota
+                                    5&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QLineEdit" name="q5">
@@ -1459,7 +1469,7 @@ color: rgb(253, 85, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string/>
@@ -1491,7 +1501,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>5</number>
@@ -1517,7 +1527,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Sold Scrap</string>
@@ -1542,7 +1552,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -1568,7 +1578,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Sold Scrap</string>
@@ -1591,7 +1601,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 1</string>
@@ -1614,7 +1624,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -1640,7 +1650,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string/>
@@ -1672,7 +1682,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>5</number>
@@ -1708,10 +1718,12 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 24pt &quot;IBM 3270&quot;;
-color: rgb(253, 85, 0);</string>
+                                    color: rgb(253, 85, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Quota 6&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span
+                                    style=&quot; font-size:28pt;&quot;&gt;Quota
+                                    6&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QLabel" name="label_29">
@@ -1731,7 +1743,7 @@ color: rgb(253, 85, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 3</string>
@@ -1754,7 +1766,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 2</string>
@@ -1801,7 +1813,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhNone</set>
@@ -1838,7 +1850,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 1</string>
@@ -1861,7 +1873,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 2</string>
@@ -1884,7 +1896,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 3</string>
@@ -1907,7 +1919,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -1933,7 +1945,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -1961,7 +1973,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhNone</set>
@@ -2028,10 +2040,12 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 24pt &quot;IBM 3270&quot;;
-color: rgb(253, 85, 0);</string>
+                                    color: rgb(253, 85, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Quota 7&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span
+                                    style=&quot; font-size:28pt;&quot;&gt;Quota
+                                    7&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QLineEdit" name="q7">
@@ -2051,7 +2065,7 @@ color: rgb(253, 85, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string/>
@@ -2083,7 +2097,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Sold Scrap</string>
@@ -2106,7 +2120,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>5</number>
@@ -2134,7 +2148,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 1</string>
@@ -2157,7 +2171,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 2</string>
@@ -2180,7 +2194,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 3</string>
@@ -2203,7 +2217,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -2229,7 +2243,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -2257,7 +2271,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhNone</set>
@@ -2324,10 +2338,12 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 24pt &quot;IBM 3270&quot;;
-color: rgb(253, 85, 0);</string>
+                                    color: rgb(253, 85, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Quota 8&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span
+                                    style=&quot; font-size:28pt;&quot;&gt;Quota
+                                    8&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QLineEdit" name="q8">
@@ -2347,7 +2363,7 @@ color: rgb(253, 85, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string/>
@@ -2379,7 +2395,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Sold Scrap</string>
@@ -2402,7 +2418,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>5</number>
@@ -2430,7 +2446,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 1</string>
@@ -2453,7 +2469,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 2</string>
@@ -2476,7 +2492,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 3</string>
@@ -2499,7 +2515,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -2525,7 +2541,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -2553,7 +2569,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhNone</set>
@@ -2620,10 +2636,12 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 24pt &quot;IBM 3270&quot;;
-color: rgb(253, 85, 0);</string>
+                                    color: rgb(253, 85, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Quota 9&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span
+                                    style=&quot; font-size:28pt;&quot;&gt;Quota
+                                    9&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QLineEdit" name="q9">
@@ -2643,7 +2661,7 @@ color: rgb(253, 85, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string/>
@@ -2675,7 +2693,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Sold Scrap</string>
@@ -2698,7 +2716,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>5</number>
@@ -2726,7 +2744,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 1</string>
@@ -2749,7 +2767,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 2</string>
@@ -2772,7 +2790,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 3</string>
@@ -2795,7 +2813,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -2821,7 +2839,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -2849,7 +2867,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhNone</set>
@@ -2916,10 +2934,12 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 24pt &quot;IBM 3270&quot;;
-color: rgb(253, 85, 0);</string>
+                                    color: rgb(253, 85, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Quota 10&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span
+                                    style=&quot; font-size:28pt;&quot;&gt;Quota
+                                    10&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QLineEdit" name="q10">
@@ -2939,7 +2959,7 @@ color: rgb(253, 85, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string/>
@@ -2971,7 +2991,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Sold Scrap</string>
@@ -2994,7 +3014,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>5</number>
@@ -3022,7 +3042,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 1</string>
@@ -3045,7 +3065,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 2</string>
@@ -3068,7 +3088,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 3</string>
@@ -3091,7 +3111,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -3117,7 +3137,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -3145,7 +3165,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhNone</set>
@@ -3212,10 +3232,12 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 24pt &quot;IBM 3270&quot;;
-color: rgb(253, 85, 0);</string>
+                                    color: rgb(253, 85, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Quota 11&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span
+                                    style=&quot; font-size:28pt;&quot;&gt;Quota
+                                    11&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QLineEdit" name="q11">
@@ -3235,7 +3257,7 @@ color: rgb(253, 85, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string/>
@@ -3267,7 +3289,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Sold Scrap</string>
@@ -3290,7 +3312,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>5</number>
@@ -3318,7 +3340,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 1</string>
@@ -3341,7 +3363,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 2</string>
@@ -3364,7 +3386,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 3</string>
@@ -3387,7 +3409,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -3413,7 +3435,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -3441,7 +3463,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhNone</set>
@@ -3508,10 +3530,12 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 24pt &quot;IBM 3270&quot;;
-color: rgb(253, 85, 0);</string>
+                                    color: rgb(253, 85, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Quota 12&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span
+                                    style=&quot; font-size:28pt;&quot;&gt;Quota
+                                    12&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QLineEdit" name="q12">
@@ -3531,7 +3555,7 @@ color: rgb(253, 85, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string/>
@@ -3563,7 +3587,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Sold Scrap</string>
@@ -3586,7 +3610,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>5</number>
@@ -3614,7 +3638,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 1</string>
@@ -3637,7 +3661,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 2</string>
@@ -3660,7 +3684,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 3</string>
@@ -3683,7 +3707,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -3709,7 +3733,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -3737,7 +3761,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhNone</set>
@@ -3804,10 +3828,12 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 24pt &quot;IBM 3270&quot;;
-color: rgb(253, 85, 0);</string>
+                                    color: rgb(253, 85, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Quota 13&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span
+                                    style=&quot; font-size:28pt;&quot;&gt;Quota
+                                    13&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QLineEdit" name="q13">
@@ -3827,7 +3853,7 @@ color: rgb(253, 85, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string/>
@@ -3859,7 +3885,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Sold Scrap</string>
@@ -3882,7 +3908,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>5</number>
@@ -3910,7 +3936,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 1</string>
@@ -3933,7 +3959,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 2</string>
@@ -3956,7 +3982,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 3</string>
@@ -3979,7 +4005,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -4005,7 +4031,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -4033,7 +4059,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhNone</set>
@@ -4100,10 +4126,12 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 24pt &quot;IBM 3270&quot;;
-color: rgb(253, 85, 0);</string>
+                                    color: rgb(253, 85, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Quota 14&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span
+                                    style=&quot; font-size:28pt;&quot;&gt;Quota
+                                    14&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QLineEdit" name="q14">
@@ -4123,7 +4151,7 @@ color: rgb(253, 85, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string/>
@@ -4155,7 +4183,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Sold Scrap</string>
@@ -4178,7 +4206,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>5</number>
@@ -4206,7 +4234,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 1</string>
@@ -4229,7 +4257,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 2</string>
@@ -4252,7 +4280,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 3</string>
@@ -4275,7 +4303,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -4301,7 +4329,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -4329,7 +4357,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhNone</set>
@@ -4396,10 +4424,12 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 24pt &quot;IBM 3270&quot;;
-color: rgb(253, 85, 0);</string>
+                                    color: rgb(253, 85, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Quota 15&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span
+                                    style=&quot; font-size:28pt;&quot;&gt;Quota
+                                    15&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QLineEdit" name="q15">
@@ -4419,7 +4449,7 @@ color: rgb(253, 85, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string/>
@@ -4451,7 +4481,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Sold Scrap</string>
@@ -4474,7 +4504,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>5</number>
@@ -4502,7 +4532,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 1</string>
@@ -4525,7 +4555,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 2</string>
@@ -4548,7 +4578,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 3</string>
@@ -4571,7 +4601,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -4597,7 +4627,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -4625,7 +4655,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhNone</set>
@@ -4692,10 +4722,12 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 24pt &quot;IBM 3270&quot;;
-color: rgb(253, 85, 0);</string>
+                                    color: rgb(253, 85, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Quota 16&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span
+                                    style=&quot; font-size:28pt;&quot;&gt;Quota
+                                    16&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QLineEdit" name="q16">
@@ -4715,7 +4747,7 @@ color: rgb(253, 85, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string/>
@@ -4747,7 +4779,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Sold Scrap</string>
@@ -4770,7 +4802,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>5</number>
@@ -4798,7 +4830,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 1</string>
@@ -4821,7 +4853,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 2</string>
@@ -4844,7 +4876,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 3</string>
@@ -4867,7 +4899,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -4893,7 +4925,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -4921,7 +4953,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhNone</set>
@@ -4988,10 +5020,12 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 24pt &quot;IBM 3270&quot;;
-color: rgb(253, 85, 0);</string>
+                                    color: rgb(253, 85, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Quota 17&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span
+                                    style=&quot; font-size:28pt;&quot;&gt;Quota
+                                    17&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QLineEdit" name="q17">
@@ -5011,7 +5045,7 @@ color: rgb(253, 85, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string/>
@@ -5043,7 +5077,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Sold Scrap</string>
@@ -5066,7 +5100,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>5</number>
@@ -5094,7 +5128,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 1</string>
@@ -5117,7 +5151,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 2</string>
@@ -5140,7 +5174,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 3</string>
@@ -5163,7 +5197,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -5189,7 +5223,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -5217,7 +5251,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhNone</set>
@@ -5284,10 +5318,12 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 24pt &quot;IBM 3270&quot;;
-color: rgb(253, 85, 0);</string>
+                                    color: rgb(253, 85, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Quota 18&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span
+                                    style=&quot; font-size:28pt;&quot;&gt;Quota
+                                    18&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QLineEdit" name="q18">
@@ -5307,7 +5343,7 @@ color: rgb(253, 85, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string/>
@@ -5339,7 +5375,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Sold Scrap</string>
@@ -5362,7 +5398,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>5</number>
@@ -5390,7 +5426,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 1</string>
@@ -5413,7 +5449,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 2</string>
@@ -5436,7 +5472,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 3</string>
@@ -5459,7 +5495,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -5485,7 +5521,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -5513,7 +5549,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhNone</set>
@@ -5580,10 +5616,12 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 24pt &quot;IBM 3270&quot;;
-color: rgb(253, 85, 0);</string>
+                                    color: rgb(253, 85, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Quota 19&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span
+                                    style=&quot; font-size:28pt;&quot;&gt;Quota
+                                    19&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QLineEdit" name="q19">
@@ -5603,7 +5641,7 @@ color: rgb(253, 85, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string/>
@@ -5635,7 +5673,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Sold Scrap</string>
@@ -5658,7 +5696,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>5</number>
@@ -5686,7 +5724,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 1</string>
@@ -5709,7 +5747,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 2</string>
@@ -5732,7 +5770,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 3</string>
@@ -5755,7 +5793,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -5781,7 +5819,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -5809,7 +5847,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhNone</set>
@@ -5876,10 +5914,12 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 24pt &quot;IBM 3270&quot;;
-color: rgb(253, 85, 0);</string>
+                                    color: rgb(253, 85, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Quota 20&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span
+                                    style=&quot; font-size:28pt;&quot;&gt;Quota
+                                    20&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QLineEdit" name="q20">
@@ -5899,7 +5939,7 @@ color: rgb(253, 85, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string/>
@@ -5931,7 +5971,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Sold Scrap</string>
@@ -5954,7 +5994,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>5</number>
@@ -5982,7 +6022,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Sold Scrap</string>
@@ -6005,7 +6045,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -6031,7 +6071,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 1</string>
@@ -6054,7 +6094,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>5</number>
@@ -6082,7 +6122,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhNone</set>
@@ -6117,7 +6157,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -6165,7 +6205,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string/>
@@ -6197,7 +6237,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 2</string>
@@ -6220,7 +6260,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 3</string>
@@ -6253,10 +6293,12 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 24pt &quot;IBM 3270&quot;;
-color: rgb(253, 85, 0);</string>
+                                    color: rgb(253, 85, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Quota 21&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span
+                                    style=&quot; font-size:28pt;&quot;&gt;Quota
+                                    21&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
      </widget>
@@ -6278,7 +6320,7 @@ color: rgb(253, 85, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Sold Scrap</string>
@@ -6301,7 +6343,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -6327,7 +6369,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 1</string>
@@ -6350,7 +6392,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>5</number>
@@ -6378,7 +6420,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhNone</set>
@@ -6413,7 +6455,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -6461,7 +6503,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string/>
@@ -6493,7 +6535,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 2</string>
@@ -6516,7 +6558,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 3</string>
@@ -6549,10 +6591,12 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 24pt &quot;IBM 3270&quot;;
-color: rgb(253, 85, 0);</string>
+                                    color: rgb(253, 85, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Quota 22&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span
+                                    style=&quot; font-size:28pt;&quot;&gt;Quota
+                                    22&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
      </widget>
@@ -6574,7 +6618,7 @@ color: rgb(253, 85, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Sold Scrap</string>
@@ -6597,7 +6641,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -6623,7 +6667,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 1</string>
@@ -6646,7 +6690,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>5</number>
@@ -6674,7 +6718,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhNone</set>
@@ -6709,7 +6753,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -6757,7 +6801,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string/>
@@ -6789,7 +6833,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 2</string>
@@ -6812,7 +6856,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 3</string>
@@ -6845,10 +6889,12 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 24pt &quot;IBM 3270&quot;;
-color: rgb(253, 85, 0);</string>
+                                    color: rgb(253, 85, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Quota 23&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span
+                                    style=&quot; font-size:28pt;&quot;&gt;Quota
+                                    23&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
      </widget>
@@ -6870,7 +6916,7 @@ color: rgb(253, 85, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Sold Scrap</string>
@@ -6893,7 +6939,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -6919,7 +6965,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 1</string>
@@ -6942,7 +6988,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>5</number>
@@ -6970,7 +7016,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhNone</set>
@@ -7005,7 +7051,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -7053,7 +7099,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string/>
@@ -7085,7 +7131,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 2</string>
@@ -7108,7 +7154,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 3</string>
@@ -7141,10 +7187,12 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 24pt &quot;IBM 3270&quot;;
-color: rgb(253, 85, 0);</string>
+                                    color: rgb(253, 85, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Quota 24&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span
+                                    style=&quot; font-size:28pt;&quot;&gt;Quota
+                                    24&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
      </widget>
@@ -7176,10 +7224,12 @@ color: rgb(253, 85, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">font: 24pt &quot;IBM 3270&quot;;
-color: rgb(253, 85, 0);</string>
+                                    color: rgb(253, 85, 0);</string>
        </property>
        <property name="text">
-        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:28pt;&quot;&gt;Quota 25&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+        <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span
+                                    style=&quot; font-size:28pt;&quot;&gt;Quota
+                                    25&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
        </property>
       </widget>
       <widget class="QLineEdit" name="q25d3">
@@ -7199,7 +7249,7 @@ color: rgb(253, 85, 0);</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -7225,7 +7275,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string/>
@@ -7257,7 +7307,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 1</string>
@@ -7282,7 +7332,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="inputMethodHints">
         <set>Qt::ImhNone</set>
@@ -7317,7 +7367,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>4</number>
@@ -7343,7 +7393,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Sold Scrap</string>
@@ -7366,7 +7416,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="maxLength">
         <number>5</number>
@@ -7392,7 +7442,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 2</string>
@@ -7437,7 +7487,7 @@ border: none;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                                    border: none;</string>
        </property>
        <property name="text">
         <string>Day 3</string>
@@ -7563,7 +7613,8 @@ border: none;</string>
        <enum>Qt::NoContextMenu</enum>
       </property>
       <property name="styleSheet">
-       <string notr="true">color: rgb(100, 32, 0); border: 1px solid red; border-color:hex(#ff5100);</string>
+       <string notr="true">color: rgb(100, 32, 0); border: 1px solid red;
+                                border-color:hex(#ff5100);</string>
       </property>
       <property name="text">
        <string>n/a</string>
@@ -7608,8 +7659,8 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: 1px solid red;
-border-color:hex(#fd5500);</string>
+                            border: 1px solid red;
+                            border-color:hex(#fd5500);</string>
      </property>
      <property name="text">
       <string>RESET RUN</string>
@@ -7643,7 +7694,7 @@ border-color:hex(#fd5500);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border:none;</string>
+                            border:none;</string>
      </property>
      <property name="text">
       <string>&gt;</string>
@@ -7669,7 +7720,7 @@ border:none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>Scrap on Ship:</string>
@@ -7698,7 +7749,7 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>Average per day:</string>
@@ -7727,7 +7778,7 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>Estimated Next Quota:</string>
@@ -7756,7 +7807,7 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>+/- to Average Quota:</string>
@@ -7788,7 +7839,7 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(100, 32, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>Estimated Scrap/day needed:</string>
@@ -7817,7 +7868,7 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(100, 32, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>Estimated Final Quota:</string>
@@ -7826,7 +7877,7 @@ border: none;</string>
       <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
      </property>
     </widget>
-    <widget class="QLineEdit" name="stat1">
+    <widget class="QLineEdit" name="ShipScrapInput">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -7849,7 +7900,7 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>0</string>
@@ -7861,7 +7912,7 @@ border: none;</string>
       <bool>true</bool>
      </property>
     </widget>
-    <widget class="QLineEdit" name="stat2">
+    <widget class="QLineEdit" name="AverageScrapPerDayInput">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -7884,7 +7935,7 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>0</string>
@@ -7896,7 +7947,7 @@ border: none;</string>
       <bool>true</bool>
      </property>
     </widget>
-    <widget class="QLineEdit" name="stat3">
+    <widget class="QLineEdit" name="QuotaDeviationAverageInput">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -7919,7 +7970,7 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>0</string>
@@ -7931,7 +7982,7 @@ border: none;</string>
       <bool>true</bool>
      </property>
     </widget>
-    <widget class="QLineEdit" name="stat4">
+    <widget class="QLineEdit" name="EstimatedNextQuotaInput">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -7954,7 +8005,7 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>236.25</string>
@@ -7966,7 +8017,7 @@ border: none;</string>
       <bool>true</bool>
      </property>
     </widget>
-    <widget class="QLineEdit" name="stat5">
+    <widget class="QLineEdit" name="EstimatedScrapPerDayNeededInput">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -7989,7 +8040,7 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(100, 32, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>0</string>
@@ -8001,7 +8052,7 @@ border: none;</string>
       <bool>true</bool>
      </property>
     </widget>
-    <widget class="QLineEdit" name="stat6">
+    <widget class="QLineEdit" name="EstimatedFinalQuotaInput">
      <property name="enabled">
       <bool>false</bool>
      </property>
@@ -8024,7 +8075,7 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(100, 32, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>0</string>
@@ -8055,7 +8106,7 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border:none;</string>
+                            border:none;</string>
      </property>
      <property name="text">
       <string>&lt;</string>
@@ -8078,7 +8129,7 @@ border:none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: none;</string>
+                            border: none;</string>
      </property>
      <property name="text">
       <string>Navigate</string>
@@ -8104,8 +8155,8 @@ border: none;</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: 1px solid red;
-border-color:hex(#fd5500);</string>
+                            border: 1px solid red;
+                            border-color:hex(#fd5500);</string>
      </property>
      <property name="text">
       <string>Calculator</string>
@@ -8140,8 +8191,8 @@ border-color:hex(#fd5500);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">color: rgb(253, 85, 0);
-border: 1px solid red;
-border-color:hex(#fd5500);</string>
+                            border: 1px solid red;
+                            border-color:hex(#fd5500);</string>
      </property>
      <property name="text">
       <string>Credits</string>
@@ -8201,8 +8252,8 @@ border-color:hex(#fd5500);</string>
         </property>
         <property name="styleSheet">
          <string notr="true">color: rgb(255, 81, 0);
-border: 1px solid red; 
-border-color:hex(#ff5100);</string>
+                                        border: 1px solid red;
+                                        border-color:hex(#ff5100);</string>
         </property>
         <property name="text">
          <string>0</string>
@@ -8228,7 +8279,7 @@ border-color:hex(#ff5100);</string>
         </property>
         <property name="styleSheet">
          <string notr="true">color: rgb(255, 81, 0);
-border: none;</string>
+                                        border: none;</string>
         </property>
         <property name="text">
          <string>Desired $:</string>
@@ -8257,7 +8308,7 @@ border: none;</string>
         </property>
         <property name="styleSheet">
          <string notr="true">color: rgb(255, 81, 0);
-border: none;</string>
+                                        border: none;</string>
         </property>
         <property name="text">
          <string>100</string>
@@ -8286,7 +8337,7 @@ border: none;</string>
         </property>
         <property name="styleSheet">
          <string notr="true">color: rgb(255, 81, 0);
-border: none;</string>
+                                        border: none;</string>
         </property>
         <property name="text">
          <string>Company Buy %:</string>
@@ -8312,7 +8363,7 @@ border: none;</string>
         </property>
         <property name="styleSheet">
          <string notr="true">color: rgb(255, 81, 0);
-border: none;</string>
+                                        border: none;</string>
         </property>
         <property name="text">
          <string>Quota:</string>
@@ -8338,7 +8389,7 @@ border: none;</string>
         </property>
         <property name="styleSheet">
          <string notr="true">color: rgb(255, 81, 0);
-border: none;</string>
+                                        border: none;</string>
         </property>
         <property name="text">
          <string>Scrap to sell:</string>
@@ -8370,7 +8421,7 @@ border: none;</string>
         </property>
         <property name="styleSheet">
          <string notr="true">color: rgb(255, 81, 0);
-border: none;</string>
+                                        border: none;</string>
         </property>
         <property name="text">
          <string>%</string>
@@ -8396,7 +8447,7 @@ border: none;</string>
         </property>
         <property name="styleSheet">
          <string notr="true">color: rgb(255, 81, 0);
-border: none;</string>
+                                        border: none;</string>
         </property>
         <property name="text">
          <string/>
@@ -8425,7 +8476,7 @@ border: none;</string>
         </property>
         <property name="styleSheet">
          <string notr="true">color: rgb(255, 81, 0);
-border: none;</string>
+                                        border: none;</string>
         </property>
         <property name="text">
          <string/>
@@ -8454,7 +8505,7 @@ border: none;</string>
         </property>
         <property name="styleSheet">
          <string notr="true">color: rgb(255, 81, 0);
-border: none;</string>
+                                        border: none;</string>
         </property>
         <property name="text">
          <string>Ship $:</string>
@@ -8486,7 +8537,7 @@ border: none;</string>
         </property>
         <property name="styleSheet">
          <string notr="true">color: rgb(255, 81, 0);
-border: none;</string>
+                                        border: none;</string>
         </property>
         <property name="text">
          <string>130</string>
@@ -8590,7 +8641,7 @@ border: none;</string>
         </property>
         <property name="styleSheet">
          <string notr="true">color: rgb(255, 81, 0);
-border: none;</string>
+                                        border: none;</string>
         </property>
         <property name="text">
          <string>Credits</string>
@@ -8619,7 +8670,7 @@ border: none;</string>
         </property>
         <property name="styleSheet">
          <string notr="true">color: rgb(255, 81, 0);
-border: none;</string>
+                                        border: none;</string>
         </property>
         <property name="frameShape">
          <enum>QFrame::NoFrame</enum>
@@ -8662,8 +8713,8 @@ p, li { white-space: pre-wrap; }
         </property>
         <property name="styleSheet">
          <string notr="true">color: rgb(253, 85, 0);
-border: 1px solid red;
-border-color:hex(#fd5500);</string>
+                                        border: 1px solid red;
+                                        border-color:hex(#fd5500);</string>
         </property>
         <property name="text">
          <string/>
@@ -8682,7 +8733,7 @@ border-color:hex(#fd5500);</string>
       </widget>
      </widget>
     </widget>
-    <widget class="QWidget" name="ResetWindow" native="true">
+    <widget class="QWidget" name="ResetDialogWindow" native="true">
      <property name="geometry">
       <rect>
        <x>250</x>
@@ -8693,7 +8744,7 @@ border-color:hex(#fd5500);</string>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color:rgba(0, 0, 0, 0.8);
-</string>
+                        </string>
      </property>
      <widget class="QTextBrowser" name="textBrowser">
       <property name="enabled">
@@ -8715,20 +8766,20 @@ border-color:hex(#fd5500);</string>
       </property>
       <property name="styleSheet">
        <string notr="true">color: rgb(253, 85, 0);
-background-color: rgba(255, 255, 255, 0);
-border: none;</string>
+                                background-color: rgba(255, 255, 255, 0);
+                                border: none;</string>
       </property>
       <property name="html">
        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
 p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'IBM 3270'; font-size:14pt; font-weight:400; font-style:normal;&quot;&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:26pt; font-weight:600;&quot;&gt;WARNING:&lt;/span&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-weight:600;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
-&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:600;&quot;&gt;DO YOU REALLY WANT TO RESET?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:26pt; font-weight:600;&quot;&gt;WARNING:&lt;/span&gt;                                &lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;                                &lt;/p&gt;
+&lt;p align=&quot;center&quot; style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:20pt; font-weight:600;&quot;&gt;DO YOU REALLY WANT TO                                RESET?&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="ResetConfirmation">
+     <widget class="QPushButton" name="ResetDialogWindowConfirmButton">
       <property name="geometry">
        <rect>
         <x>20</x>
@@ -8748,14 +8799,14 @@ p, li { white-space: pre-wrap; }
       </property>
       <property name="styleSheet">
        <string notr="true">color: rgb(253, 85, 0);
-border: 1px solid red;
-border-color:hex(#fd5500);</string>
+                                border: 1px solid red;
+                                border-color:hex(#fd5500);</string>
       </property>
       <property name="text">
        <string>YES, RESET</string>
       </property>
      </widget>
-     <widget class="QPushButton" name="ResetCancel">
+     <widget class="QPushButton" name="ResetDialogWindowCancelButton">
       <property name="geometry">
        <rect>
         <x>270</x>
@@ -8775,14 +8826,17 @@ border-color:hex(#fd5500);</string>
       </property>
       <property name="styleSheet">
        <string notr="true">color: rgb(253, 85, 0);
-border: 1px solid red;
-border-color:hex(#fd5500);</string>
+                                border: 1px solid red;
+                                border-color:hex(#fd5500);</string>
       </property>
       <property name="text">
        <string>NO, RESUME</string>
       </property>
      </widget>
      <widget class="QFrame" name="frame">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
       <property name="geometry">
        <rect>
         <x>0</x>
@@ -8793,9 +8847,9 @@ border-color:hex(#fd5500);</string>
       </property>
       <property name="styleSheet">
        <string notr="true">color: rgb(253, 85, 0);
-border: 3px solid red;
-border-color:hex(#fd5500);
-background-color: rgba(255, 255, 255, 0);</string>
+                                border: 3px solid red;
+                                border-color:hex(#fd5500);
+                                background-color: rgba(255, 255, 255, 0);</string>
       </property>
       <property name="frameShape">
        <enum>QFrame::StyledPanel</enum>
@@ -8806,8 +8860,8 @@ background-color: rgba(255, 255, 255, 0);</string>
      </widget>
      <zorder>frame</zorder>
      <zorder>textBrowser</zorder>
-     <zorder>ResetConfirmation</zorder>
-     <zorder>ResetCancel</zorder>
+     <zorder>ResetDialogWindowConfirmButton</zorder>
+     <zorder>ResetDialogWindowCancelButton</zorder>
     </widget>
    </widget>
   </widget>
