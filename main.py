@@ -118,7 +118,7 @@ class Window(QMainWindow):
         self.CalculatorDesired.setEnabled(True)
         self.CalculatorShip.setText("")
         self.CalculatorDesired.setText("")
-        self.CalculatorSell.setText("0")
+        self.overtimeCalculator()
 
     def notOvertime(self):
         self.CalculatorShip.setStyleSheet("color: rgb(100, 32, 0); border: none;")
@@ -149,9 +149,20 @@ class Window(QMainWindow):
 
     def resetCancel(self):
         self.ResetWindow.hide()
-
-    def overtimeCalculator(self):
-        if self.OT.isChecked():
+    
+    def overtimeCalculator(self):   
+        if self.CalculatorQuota.text() == "":
+            tempQuota = 0
+        else:
+            tempQuota = int(self.CalculatorQuota.text())
+        if self.CalculatorBuy.text() == "":
+            tempBuy = 0
+        else:
+            tempBuy = int(self.CalculatorBuy.text())
+        
+        needed = tempQuota
+        
+        if self.OT.isChecked(): # calculate the overtime portion and add it to needed
             if self.CalculatorDesired.text() == "":
                 tempDesired = 0
             else:
@@ -160,14 +171,14 @@ class Window(QMainWindow):
                 tempShip = 0
             else:
                 tempShip = int(self.CalculatorShip.text())
-            needed = math.floor((int(self.CalculatorQuota.text())+5 * ((tempDesired-tempShip)+15))/6)
-            temp = float((int(self.CalculatorBuy.text()))/100)
-            temp = 2 - temp
-            needed = math.floor(needed * temp)
-            self.CalculatorSell.setText(str(needed))
-        if self.NO_OT.isChecked():
-            needed = math.floor(int(self.CalculatorQuota.text()) / (int(self.CalculatorBuy.text())/100))
-            self.CalculatorSell.setText(str(needed))
+            
+            if tempDesired > tempQuota + tempShip: # no need for overtime calc if this isn't true
+                needed += math.ceil((tempDesired - tempShip - tempQuota + 15)*(5/6)) # +15 should be different based on the day sold (-30, -15, 0, +15) so this is only accurate for 100% sell rate
+                if needed > tempDesired: # this check is necessary because of the -15 overtime reduction from selling with 0 days left
+                    needed = tempDesired
+                
+        needed = math.ceil(needed * (100/tempBuy)) # apply company buy rate to final calculation
+        self.CalculatorSell.setText(str(needed))
 
     def calculatorFunction(self):
         was = self.ButtonStackWidget.currentIndex()
@@ -223,7 +234,7 @@ class Window(QMainWindow):
             self.CalculatorDesired.setText("")
             self.CalculatorShip.setText("")
             self.CalculatorBuy.setText("100")
-            self.CalculatorSell.setText("0")
+            self.overtimeCalculator()
         if self.NO_OT.isChecked():
             self.overtimeCalculator()
         totalScrap = ['','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','']
