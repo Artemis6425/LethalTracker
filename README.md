@@ -65,3 +65,7 @@ If you want to show the stats in OBS as well, click the OBS button on the credit
 - Fixed the calculator function to properly calculate the overtime needed, with help from bryanclst
 - Changed the "Company Buy %" to a "Days Remaining" field, to make the calculator more accurate (and easier to use) from feedback from bryanclst.
 Thank you for the feedback!
+
+### v1.32 "fixed average"
+
+- Fixed the average quota estimate, as the calculation was slightly off. (thanks eleventybillion!)

@@ -382,10 +382,10 @@ currShip = 0
 nextQuota = [183.125, 236.25, 289.375]
 estimatedNeeded = [2811.25, 10956.25, 365.20] # Final, Sum, Average
 allQuotas = [130,'','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','','']
-averageQuota = [130,236.25,361.25,517.5,717.5,973.75,1298.75,1705,2205,2811.25,3536.25,4392.5,5392.5,6548.75,7873.75,9380,11080,12986.25,15111.25,17467.5,20067.5,22923.75]
+averageQuota = [130, 364.21, 237.61, 522.46, 725.03, 984.56, 1313.72, 1725.18, 2231.58, 2845.60, 3579.89, 4447.11, 5459.92, 6630.99, 7972.96, 9498.51, 11220.29, 13150.96, 15303.19, 17689.62, 20322.94, 23215.78, 26380.82, 29830.71]
 
 app=QApplication(sys.argv)
-app.setApplicationName("LethalTracker v1.31")
+app.setApplicationName("LethalTracker v1.32")
 app.setWindowIcon(QtGui.QIcon(QtGui.QPixmap(os.path.join(resource_path, 'icon.ico'))))
 mainwindow=Window()
 widget=QtWidgets.QStackedWidget()
