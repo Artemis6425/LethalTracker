@@ -74,6 +74,7 @@ class Window(QMainWindow):
                 child_widget.setValidator(QIntValidator())
 
         for i in range (1,26):
+            
             if i != 1:
                 temp1 = self.findChild(QLineEdit, f"q{i}")
                 if temp1:
@@ -152,6 +153,16 @@ class Window(QMainWindow):
 
     def overtimeCalculator(self):
         if self.OT.isChecked():
+            deadlineCalc = {
+                "0": [-15, 100],
+                "1": [0, 76.6666],
+                "2": [15, 53.3333],
+                "3":[30, 30]
+            }
+            cb = int(self.CalculatorBuy.text())
+            if cb > 3: cb = 3
+            cBuy = deadlineCalc[str(cb)]
+
             if self.CalculatorDesired.text() == "":
                 tempDesired = 0
             else:
@@ -160,10 +171,19 @@ class Window(QMainWindow):
                 tempShip = 0
             else:
                 tempShip = int(self.CalculatorShip.text())
-            needed = math.floor((int(self.CalculatorQuota.text())+5 * ((tempDesired-tempShip)+15))/6)
-            temp = float((int(self.CalculatorBuy.text()))/100)
-            temp = 2 - temp
-            needed = math.floor(needed * temp)
+            if self.CalculatorQuota.text() == "":
+                tempQuota = 0
+            else:
+                tempQuota = int(self.CalculatorQuota.text())
+            
+            needed = tempQuota
+
+            needed += math.ceil((tempDesired - tempShip - tempQuota - cBuy[0])*(5/6))
+            if needed > tempDesired:
+                needed = tempDesired
+            needed = math.ceil(needed * (100/cBuy[1]))
+
+
             self.CalculatorSell.setText(str(needed))
         if self.NO_OT.isChecked():
             needed = math.floor(int(self.CalculatorQuota.text()) / (int(self.CalculatorBuy.text())/100))
@@ -365,7 +385,7 @@ allQuotas = [130,'','','','','','','','','','','','','','','','','','','','','',
 averageQuota = [130,236.25,361.25,517.5,717.5,973.75,1298.75,1705,2205,2811.25,3536.25,4392.5,5392.5,6548.75,7873.75,9380,11080,12986.25,15111.25,17467.5,20067.5,22923.75]
 
 app=QApplication(sys.argv)
-app.setApplicationName("LethalTracker v1.3")
+app.setApplicationName("LethalTracker v1.31")
 app.setWindowIcon(QtGui.QIcon(QtGui.QPixmap(os.path.join(resource_path, 'icon.ico'))))
 mainwindow=Window()
 widget=QtWidgets.QStackedWidget()

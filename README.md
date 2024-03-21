@@ -1,4 +1,4 @@
-# LethalTracker v1.3 by Artemis64
+# LethalTracker v1.31 by Artemis64
 
 This program is meant to be an all-in-one scrap tracker for Lethal Company!
 While the spreadsheets that exist are pretty nice and do give a bit more detail, i think they are generally rough on the eyes and don't have a great way to be displayed on stream. I figured making this would both simplify usage and also be easy to capture in OBS. (Improved in 1.2!)
@@ -12,7 +12,7 @@ This is also my first time making a full program like this! Let me know if you l
 ## Features
 
 - All-inclusive LethalTracker.exe file so you don't have to deal with my messy code!
-- Built-in overtime calculator (with possibility to calculate how much you need to sell to hit quota!)
+- Built-in overtime calculator (with possibility to calculate how much you need to sell to hit quota!) **fixed in v1.31!**
 - Ability to estimate future quotas
 - Option to open a window specifically designed to be captured by OBS **added in v1.2!**
 - ...and more!
@@ -32,7 +32,7 @@ If you want to show the stats in OBS as well, click the OBS button on the credit
 
 ## Known issues
 
-- Using this program on a 4k monitor causes the scaling to be completely messed up. 1080p and 1440p monitors are just fine though.
+- Using this program on a 4k monitor causes the scaling to be completely messed up. 1080p and 1440p monitors *should* be fine, with few exceptions
 - My code is fairly messy, but I've never made something like this before so just pretend its ok!
 
 ## Future ideas
@@ -59,3 +59,9 @@ If you want to show the stats in OBS as well, click the OBS button on the credit
 - Fixed bug where the `LethalTracker OBS` window wasn't updating the top line when resetting. Thank you for letting me know!
 - Merged Tomatobird8's branch, which formats the text in the `LethalTracker OBS` window to allow for bigger numbers. Thank you for the contribution!
 - Added the ability to change calculator into "Overtime" and "No OT" modes. Makes it possible to calculate how much you need to sell to hit quota, ignoring overtime. Thank you for the feedback!
+
+### v1.31 "FIXED CALCULATOR"
+
+- Fixed the calculator function to properly calculate the overtime needed, with help from bryanclst
+- Changed the "Company Buy %" to a "Days Remaining" field, to make the calculator more accurate (and easier to use) from feedback from bryanclst.
+Thank you for the feedback!

@@ -8260,10 +8260,10 @@ border: none;</string>
 border: none;</string>
         </property>
         <property name="text">
-         <string>100</string>
+         <string>0</string>
         </property>
         <property name="maxLength">
-         <number>3</number>
+         <number>1</number>
         </property>
         <property name="readOnly">
          <bool>false</bool>
@@ -8289,7 +8289,7 @@ border: none;</string>
 border: none;</string>
         </property>
         <property name="text">
-         <string>Company Buy %:</string>
+         <string>Days remaining:</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
@@ -8345,38 +8345,6 @@ border: none;</string>
         </property>
         <property name="alignment">
          <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_176">
-        <property name="enabled">
-         <bool>false</bool>
-        </property>
-        <property name="geometry">
-         <rect>
-          <x>340</x>
-          <y>110</y>
-          <width>21</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>IBM 3270</family>
-          <pointsize>24</pointsize>
-         </font>
-        </property>
-        <property name="layoutDirection">
-         <enum>Qt::LeftToRight</enum>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">color: rgb(255, 81, 0);
-border: none;</string>
-        </property>
-        <property name="text">
-         <string>%</string>
-        </property>
-        <property name="alignment">
-         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
         </property>
        </widget>
        <widget class="QLineEdit" name="CalculatorShip">
@@ -8550,7 +8518,6 @@ border: none;</string>
        <zorder>label_175</zorder>
        <zorder>label_172</zorder>
        <zorder>label_174</zorder>
-       <zorder>label_176</zorder>
        <zorder>CalculatorShip</zorder>
        <zorder>CalculatorDesired</zorder>
        <zorder>label_173</zorder>
