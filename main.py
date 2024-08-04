@@ -152,13 +152,13 @@ class Window(QMainWindow):
         self.ResetWindow.hide()
 
     def overtimeCalculator(self):
-        if self.OT.isChecked():
-            deadlineCalc = {
+        deadlineCalc = {
                 "0": [-15, 100],
                 "1": [0, 76.6666],
                 "2": [15, 53.3333],
                 "3":[30, 30]
             }
+        if self.OT.isChecked():
             cb = int(self.CalculatorBuy.text())
             if cb > 3: cb = 3
             cBuy = deadlineCalc[str(cb)]
@@ -186,7 +186,7 @@ class Window(QMainWindow):
 
             self.CalculatorSell.setText(str(needed))
         if self.NO_OT.isChecked():
-            needed = math.floor(int(self.CalculatorQuota.text()) / (int(self.CalculatorBuy.text())/100))
+            needed = math.ceil(int(self.CalculatorQuota.text()) / (deadlineCalc[self.CalculatorBuy.text()][1] / 100))
             self.CalculatorSell.setText(str(needed))
 
     def calculatorFunction(self):
