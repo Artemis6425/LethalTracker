@@ -1,4 +1,4 @@
-# LethalTracker v1.31 by Artemis64
+# LethalTracker v1.33 by Artemis64
 
 This program is meant to be an all-in-one scrap tracker for Lethal Company!
 While the spreadsheets that exist are pretty nice and do give a bit more detail, i think they are generally rough on the eyes and don't have a great way to be displayed on stream. I figured making this would both simplify usage and also be easy to capture in OBS. (Improved in 1.2!)
@@ -69,3 +69,7 @@ Thank you for the feedback!
 ### v1.32 "fixed average"
 
 - Fixed the average quota estimate, as the calculation was slightly off. (thanks eleventybillion!)
+
+### v1.33 "Fixed 'NO OT' Calculator"
+
+- Fixed the 'NO OT' Calculator to not crash, and to also actually calculate it properly (thanks inkstarLum!)
